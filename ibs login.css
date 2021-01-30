@@ -1,0 +1,177 @@
+body{
+    text-align: center;
+    background-image:url(https://i.pinimg.com/originals/7e/ca/94/7eca949306ca9307b2eeff6d1785a5a6.jpg);
+    background-attachment: fixed;
+}
+table{
+    margin: auto;
+}
+td{
+    padding: 10px 20px; 
+}
+label{
+    font-size: 20px;
+    font-family:forte;
+    color: rgb(3, 6, 44) ;
+}
+.input{
+    width:250px;
+    padding: 5px;
+    font-size:18px;
+    color: rgb(9, 10, 44);
+    border: 2px solid rgb(28, 14, 155);
+    border-radius: 7px;
+    outline:none;
+    font-weight:bolder ;
+    color: rgb(19, 0, 70);
+    font-family: forte;
+
+}
+
+#submit{
+    margin: 20px;
+    padding: 10px;
+    font-size:19px;
+    font-family:algerian;
+    background-color:rgb(158, 174, 248);
+    border-radius:10px;
+    outline:none;
+    font-weight: bolder;
+
+}
+#submit:hover{
+    margin: 20px;
+    padding: 10px;
+    font-size:21px;
+    font-family:algerian;
+    background-color:rgb(80, 90, 226);
+    border-radius:10px;
+    outline:none;
+    font-weight: bolder;
+    box-shadow:rgb(17, 4, 194) 10px 10px 5px ;
+    
+}
+.input:focus{
+    background-color: rgba(50, 47, 255, 0.205);
+    text-shadow: rgb(0, 38, 255) 10 10 5;
+    font-weight:bolder ;
+    color: rgb(2, 2, 48);
+    font-family: forte;
+}
+.input:hover{
+   background-color: rgb(141, 135, 179);
+   box-shadow: gray 10px 10px 5px;
+}
+fieldset{
+    margin: auto;
+    width:500px;
+    background-color: rgb(204, 187, 235);
+
+}
+img{
+    border-radius: 100%;
+}
+h3{
+    font-family:algerian;
+    text-shadow:lightslategrey 10px 10px 5px;
+    color:rgb(11, 1, 104);
+    text-decoration: underline;
+}
+h4{
+    font-family:algerian;
+    text-shadow:lightslategrey 10px 10px 5px;
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+}
+div{
+    background-color: rgb(6, 9, 212);
+    width:500px;
+    margin:auto;
+    
+}
+a{
+    font-family:algerian;
+   
+    color:rgb(172, 217, 224);
+    text-decoration: underline;
+}
+ul{
+    list-style:none;
+}
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+.navbar ul a li{                   
+    float :left;
+    padding : 0px 50px ;
+}
+.navbar{
+    height: 50px;
+    background-color:darkblue;
+    width: 100%;
+ }
+.navbar ul a{
+    color:rgb(171, 171, 253);
+    font-family: Algerian;
+    font-size: 20px ; 
+    font-weight: bold;
+    line-height: 50px;
+}
+.navbar ul a li:hover{
+    background-color:rgb(55, 55, 255) ;
+    font-size: 22px ;
+    color:rgb(226, 226, 255);
+    text-shadow:3px 3px 5px rgb(0, 0, 44);
+}
+.navbar h1{
+    float: right;
+    color:rgb(129, 117, 184);
+    font-size: 40px;
+    font-family: algerian;
+    line-height: 50px;
+}
+.navbar h1:hover{
+    background-color:rgb(55, 55, 255) ;
+    font-size: 45px ;
+    color:rgb(226, 226, 255);
+    text-shadow:3px 3px 5px rgb(0, 0, 44);
+    
+}
+.footer{
+    height: 200px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+
+}
+#in{
+  
+    display:flex;
+    justify-content:space-between;
+    background-color: black;
+}
+.pic{
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    background-color: black;
+    
+}
+.img{
+border-radius: 50%;
+
+}
+.pic:hover{
+    box-shadow: gold 5px 5px 10px;
+    border-radius: 50%;
+}
+#random{
+    color: blanchedalmond;
+    font-family: forte ;
+    font-size: 20px;
+    background-color: black;
+    
+}
